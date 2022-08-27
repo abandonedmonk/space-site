@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Game of Squids;
+    src: url(Game\ Of\ Squids.ttf );
+}
+
+body{
+    color: #54CED6;
+    text-align: center;
+    background: url(astronaut.webp), #6054d6;
+    background-repeat: no-repeat;
+    background-size: 100% 90%, cover;
+    font-family: Game of Squids;
+}
+
+.hero{
+    text-shadow: 0px 0px 4px black;
+}
+
+.terms{
+    padding: 350px 0 0 0;
+    text-shadow: 3px 3px 3px #d55b53;
+}
+
+#logo{
+    width: 200px;
+}
+
+.cta{
+    border-bottom: 5px solid white;
+}
+
+.btn{
+    /* color: #54CED6; */
+    background-color: #54CED6;
+    padding: 6px 12px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    box-shadow: 0px 0px 3px black;
+}
+
